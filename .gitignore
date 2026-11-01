@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+__pycache__/
+backend/**/__pycache__/
+*.pyc
+
+# Builds
+dist/
+frontend/dist/
+build/
+
+# Testing & Cache
+.pytest_cache/
+.coverage
+htmlcov/
+*.tsbuildinfo
+
+# Local Database & Uploads
+*.db
+*.sqlite3
+backend/digital_dark_spot.db
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Environment variables & secrets
+.env
+.env.local
+*.log
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
